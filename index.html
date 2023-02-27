@@ -1,65 +1,187 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Bootstrap components</title>
-</head>
-<body>
+		<!-- Bootstrap  CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-	  <a class="navbar-brand pl-5" href="#">Joule Buencido</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNav">
-	    <ul class="navbar-nav ml-auto text-center  text-md-left">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Projects</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Tools</a>
-	      </li>
-	      <li class="nav-item pr-5">
-	        <a class="nav-link" href="#">Contacts</a>
-	      </li>
-	      
-	    </ul>
-	  </div>
-	</nav>
+		<!-- Font Link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
 
-	<div class="container-fluid text-center">
-		<div class="row">
-			<div class="col-xl-10 p-0">
+		<!-- Icons Link -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+
+		<!-- CSS Link -->
+		<link rel="stylesheet" type="text/css" href="./style.css">
+
+		<title>Joule Buencido Capstone 1</title>
+
+	</head>
+	<body>
+
+		<!-- Navbar-->
+		<nav class="navbar navbar-expand navbar-dark sticky-top" id="navbar-section">
+		  <a class="navbar-brand" id="navbar-home" href="#"><img src="./images/pizza-icon.png" width="30" height="30" class="d-inline-block align-top mr-3">JOULE BUENCIDO</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-items" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <div class="navbar-nav ml-auto d-none d-md-inline-flex">
+		    	<a class="nav-link active mr-3" href="#home">HOME <span class="sr-only">(current)</span></a>
+			    <a class="nav-link mr-3" href="#about-me">ABOUT</a>
+			    <a class="nav-link mr-3" href="#projects">PROJECTS</a>
+			    <a class="nav-link mr-3" href="#contact">CONTACT</a>
+		    </div>
+		  </div>
+		</nav>
 				
-				<!-- Home/Landing Page -->
-				<div class="container-fluid bg-dark text-light min-vh-100 p-3 p-md-5">
-					<img width="250" src="./images/joule_image.png" class="mt-5 mt-md-0 rounded-circle">
-					<h2>Joule Buencido</h2>
+		<div class="d-inline-flex">
 
-					<h3>Full Stack Developer</h3>
+		<!-- Social Media Links-->
+			<div class="icon-bar d-none d-sm-block">
+			  <a class="active" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+			  <a href="https://www.gmail.com/"><i class="fa-solid fa-paper-plane"></i></a>
+			  <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+			  <a href="https://www.github.com/"><i class="fa-brands fa-github"></i></a> 
+			</div>
+		
+		<!-- Main Content -->
 
-					<div class="row mt-5">
-						<div class="offset-md-2 col-md-8">
-							<p>
-								Programming is a powerful tool that allows you to create and bring your ideas to life. It can be an incredibly rewarding and fulfilling experience to see your code turn into a functional program, application or website. Whether you are a seasoned programmer or just starting out, programming offers endless possibilities for personal and professional growth. With every line of code you write, you are building skills and developing problem-solving abilities that can benefit you in countless areas of your life. Remember, programming is not just about the end product, it is about the journey of learning, exploring, and creating something new. So, if you have a passion for technology and a desire to make a difference in the world, programming is the perfect path to pursue. Keep pushing yourself, stay curious, and never give up on your dreams. With determination, focus, and hard work, you can become a successful programmer and achieve anything you set your mind to.
-							</p>
-						</div>
-					</div>
-
-					
-				
-
+			<!-- Homepage -->
+			<div class="d-inline-flex text-center align-top ml-5 pt-3" id="home">
+				<div class="container-fluid min-vh-100 p-3 p-md-5">
+					<div class="col-12 offset-md-2 col-md-8 order-0">
+						
+						<img width="250" src="./images/dp-img.jpg " class="img-fluid rounded-circle col-12 pt-5 order-1" >
+						<h1 class="pt-5">I'm Joule Buencido.</h1>
+						<h4>A Front End Web Developer</h4>
+					</div>	
 				</div>
 			</div>
+		</div>
+
+		<!-- Programming Skills -->
+		<div class="min-vh-100 p-5" id="about-me">
+			<h1 class="p-3">PROGRAMMING SKILLS</h1>
+			<div class="card-deck">
+			 	<div class="card">
+			   		<img src="https://3.bp.blogspot.com/-7x5c_f1yzsQ/XHv9FZKHrEI/AAAAAAAADrE/4iGl9Lm6K2odX4SdWbU_RN6gZesx4IaGACEwYBhgL/s1600/html.jpg" class="card-img-top" alt="html-image">
+			    	<div class="card-body">
+			      		<h5 class="card-title">HTML</h5>
+			      		<p class="card-text">HTML (Hypertext Markup Language) is a markup language used to create and structure content for the web. HTML uses tags and attributes to define the structure and formatting of web pages, which are then rendered by web browsers.</p>
+			      
+			    	</div>
+			  	</div>
+			  	<div class="card">
+			    	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" class="img-fluid card-img-top" alt="CSS-logo">
+			    	<div class="card-body">
+			      		<h5 class="card-title">CSS</h5>
+			      		<p class="card-text">CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of web pages written in HTML or XML. CSS allows web developers to separate the visual style of a web page from its structure and content, making it easier to maintain and update the design of a website.</p>
+			      
+			    	</div>
+			 	</div>
+			  	<div class="card">
+			    	<img src="./images/bootstrap-img.png" class="card-img-top" alt="ceiling-purifier-image">
+			    	<div class="card-body">
+			      		<h5 class="card-title">Bootstrap</h5>
+			      		<p class="card-text">Bootstrap is a popular front-end web development framework that helps developers create responsive and mobile-first websites and web applications. Bootstrap provides a set of pre-designed HTML, CSS, and JavaScript components, such as buttons, forms, modals, and navigation menus, that can be easily customized and integrated into web projects.Bootstrap was developed by Twitter and released as an open-source project in 2011. It is now maintained by a community of developers and has become one of the most widely used front-end frameworks.</p>
+			    	</div>
+			  	</div>
+			</div>
+		</div>
+    
+			
+
+		<!-- Projects -->
+		<div class="min-vh-100 p-5" id="projects">
+			<h1 class="p-3">PROJECTS</h1>
+
+			<div class="card-deck">
+				<div class="card">
+			    	<img src="./images/cacao-image.jpg" class="card-img-top" alt="cacao-image">
+			    	<div class="card-body">
+			      	<h5 class="card-title">Cacao Beans Quality Checker</h5>
+			      	<p class="card-text">Cacao beans quality checking involves a series of assessments to determine the quality of the beans. The method in this project to check the quality involves machine learning(deep learning). Devices such as cameras, feed hopper, motors, sensors, controls and switches was used for the hardware. While for the software,Tensorflow Lite, an open-source Python platform for machine learning and artificial intelligence was used for the detection software  </p>
+			      
+			    </div>
+			</div>
+			<div class="card">
+			    <img src="./images/search-engine-image.png" alt="code-image">
+			    <div class="card-body">
+			      	<h5 class="card-title">Search Engine Backend</h5>
+			      	<p class="card-text">The backend of a search engine refers to the technical infrastructure and processes that support the search functionality. It includes a variety of components such as servers, databases, algorithms, and APIs that work together to provide fast and accurate search results. </p>
+			      
+			    </div>
+			</div>
+
+			<div class="card">
+			    <img src="./images/ceiling-purifier-image.png" class="card-img-top" alt="ceiling-purifier-image">
+			    <div class="card-body">
+			      	<h5 class="card-title">Ceiling Air Purifier</h5>
+			      	<p class="card-text">An air ceiling purifier is a type of air purifier that is designed to be mounted on the ceiling. It is typically used in commercial or industrial settings, but can also be found in some residential settings.The purpose of an air ceiling purifier is to remove pollutants and contaminants from the air, including dust, allergens, bacteria, and viruses. It works by drawing in air from the surrounding environment, filtering it through a series of air filters, and then returning the purified air back into the room.</p>
+			    </div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Contact Me -->
+		<div class="min-vh-100 p-5" id="contact">
+
+			<h2>Contact Me</h2>
+				
+				<div class="offset-md-2 offset-xl-4 col-md-8 col-xl-4">
+					<form>
+						<div class="form-group">
+					    	<label for="Name">Name</label>
+					    	<input type="text" class="form-control" id="Name" placeholder="Name">
+					  		</div>
+					  		<div class="form-group">
+					    		<label for="Email">Email Address</label>
+					    		<input type="text" class="form-control" id="Email" placeholder="name@example.com">
+					  		</div>
+					  		<div class="form-group">
+					    		<label for="ContactNumber">Contact Number</label>
+					    		<input type="text" class="form-control" id="ContactNumber" placeholder="Contact Number">
+					  		</div>
+					  		<div class="form-group">
+					    		<label for="Message">Message</label>
+					   	 		<textarea class="form-control" id="Message" rows="5"></textarea>
+					  		</div>
+					</form>
+
+					<!-- Modal -->
+					<input class="btn" data-toggle="modal" data-target="#practiceModal" type="submit" value="Submit">
+
+					<div class="modal fade" id="practiceModal" tabindex="-1" aria-labelledby="practiceModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
+					      </div>
+					      <div class="modal-body text-dark">
+					        Message successfully sent.
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+					
 
 
-</body>
+
+
+		<!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	</body>
 </html>
