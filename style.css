@@ -137,3 +137,8 @@ body {
   background-color: #4B4453;
   color: #ECE6C2;
 }
+
+.dp {
+  height: 300px;
+  width: 300px;
+}
